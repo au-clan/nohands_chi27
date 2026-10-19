@@ -1,0 +1,75 @@
+The "READ THIS FIRST" and "Ready to start?" dialogs, exactly as shown to participants inside the
+Kasm desktop (rendered from HTML-formatted zenity dialog text; formatting tags kept as-is).
+
+================================================================================
+DIALOG 1 — "READ THIS FIRST — REQUIRED BEFORE YOU START"
+(shown immediately on desktop login, before anything else)
+================================================================================
+
+⚠ TWO THINGS ARE REQUIRED FOR PAYMENT ⚠
+
+1. ENABLING YOUR MICROPHONE IS MANDATORY — WITHOUT IT YOU CANNOT BE PAID.
+
+2. WATCHING THE 2-MINUTE VIDEO IS MANDATORY — SKIPPING IT MAY GET YOUR SUBMISSION REJECTED. IT
+ALSO MAKES THE TASKS MUCH EASIER.
+
+1. Enable your microphone now
+Control Panel on the left edge of this window → Microphone → Allow.
+
+2. Watch the 2-minute video
+It is at the top of the task page that opens when you click OK. Nothing is timed while you watch.
+
+3. Then do the tasks
+Your tool is <TOOL_NAME — see per-condition text below>. Complete as many tasks as you can in 10
+minutes — the task page explains the rest. When you finish, close this browser tab and return to
+the survey.
+
+If anything asks you to update or install — click Close.
+
+YOU MUST CLICK THE "OK" BUTTON BELOW TO CONTINUE.
+
+Your session is being recorded (screen + audio).
+
+================================================================================
+DIALOG 2 — "Ready to start?"
+(shown after the task page has opened; clicking OK launches the tool + editor — nothing is
+timed before this point)
+================================================================================
+
+Watch the 2-minute video and turn your microphone on. Both are required for payment.
+
+Nothing is timed yet.
+
+YOU MUST CLICK THE "OK" BUTTON BELOW TO CONTINUE.
+It starts <TOOL_NAME> and the editor.
+
+================================================================================
+Per-condition TOOL_NAME / instruction text substituted into Dialog 1 above (§3):
+================================================================================
+
+[cursor]
+Tool name shown: Cursor
+Use Cursor to complete the tasks by speaking to the AI. Cursor is not running yet — it opens when
+you click OK on the next box ("Ready to start?"). Once Cursor has opened: click the microphone
+icon in the Cursor chat panel, speak your intent, and let Cursor apply it. Avoid typing code
+manually.
+
+[serenade]
+Tool name shown: Serenade
+Use Serenade to complete the tasks by speaking commands aloud. Serenade is not running yet — it
+starts when you click OK on the next box ("Ready to start?"). Once it has started: its icon
+appears in the system tray at the bottom-right of this desktop (not your own computer's taskbar);
+a green dot means it's listening. Serenade sends commands to whichever window you last clicked —
+after clicking the task list, say "focus code" to point it back at VS Code. Avoid using the
+keyboard as much as possible.
+(Serenade condition also appends: "Scroll down to the Command cheat sheet section, or click the
+⌨ Cheat sheet button in the dark bar at the top of the page — you can reopen it at any point
+during the session.")
+
+[mantra]
+Tool name shown: Mantra
+Use the Mantra VS Code extension to complete the tasks by voice. VS Code is not running yet — it
+opens when you click OK on the next box ("Ready to start?"). Once VS Code has opened: the Mantra
+panel is on the right-hand side of the window (the file explorer stays on the left). Click
+Hands-Free Mode (or hold Push to Talk) and speak your command. Avoid using the keyboard as much
+as possible.
